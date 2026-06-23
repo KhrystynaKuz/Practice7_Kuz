@@ -1,4 +1,6 @@
 package org.example.booking;
 
-public class BookingRepository {
+public interface BookingRepository {
+    Seat findSeatById(long id);
+    void save(Seat seat);
 }

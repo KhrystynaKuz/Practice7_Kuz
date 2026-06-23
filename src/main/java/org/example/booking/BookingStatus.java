@@ -1,4 +1,8 @@
 package org.example.booking;
 
-public class BookingStatus {
+enum BookingStatus {
+    SUCCESS,
+    NOT_FOUND,
+    ALREADY_BOOKED,
+    PAYMENT_FAILED
 }

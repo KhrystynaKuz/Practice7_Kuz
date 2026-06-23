@@ -1,4 +1,5 @@
-package org.example.booking.service;
+package org.example.booking;
 
-public class PaymentService {
+public interface PaymentService {
+    boolean pay(double amount);
 }

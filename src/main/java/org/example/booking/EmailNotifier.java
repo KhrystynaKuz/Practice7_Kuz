@@ -1,4 +1,5 @@
-package org.example.booking.service;
+package org.example.booking;
 
-public class EmailNotifier {
+public interface EmailNotifier {
+    void sendEmail(String email, long seatId);
 }
