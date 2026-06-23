@@ -219,5 +219,4 @@ class BookingServiceTest {
         assertEquals("PREMIUM", bookingService.getSeatCategory(199));
         assertEquals("VIP", bookingService.getSeatCategory(200));
     }
-
 }

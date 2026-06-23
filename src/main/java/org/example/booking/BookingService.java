@@ -23,6 +23,7 @@ class BookingService {
         if (seat == null) {
             return BookingStatus.NOT_FOUND;
         }
+
         if (seat.booked) {
             return BookingStatus.ALREADY_BOOKED;
         }
