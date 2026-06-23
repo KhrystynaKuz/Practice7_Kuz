@@ -199,9 +199,7 @@ class BookingServiceTest {
 
         bookingService.bookSeat(1L, "person@mail.com");
 
-        assertThat(bookingService.getBookedSeats())
-                .extracting(Seat::getId)
-                .contains(1L);
+        assertThat(bookingService.getBookedSeats()).extracting(Seat::getId).contains(1L);
     }
 
     @Test
